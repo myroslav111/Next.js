@@ -2,14 +2,12 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://myroslav111.github.io/Next.js/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "contentful-typescript-codegen": "contentful-typescript-codegen --output contentful.d.ts",
-    "lint:js": "eslint src/**/*.{js,jsx,tsx,ts}"
+    "contentful-typescript-codegen": "contentful-typescript-codegen --output contentful.d.ts"
   },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^15.12.1",
