@@ -8,7 +8,7 @@ import { Container, Button } from 'reactstrap';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 
 export default function Article({ article }: { article: IArticle }) {
-  console.log('slug', article);
+
   return (
     <>
       <Head>

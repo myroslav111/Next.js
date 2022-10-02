@@ -19,7 +19,6 @@ import {
 // import styles from '../styles/Home.module.css';
 
 const Home = ({ home, articles }: { home: IHome; articles: IArticle[] }) => {
-  console.log('home', articles);
   return (
     <div>
       <Head>
